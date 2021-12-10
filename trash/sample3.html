@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', Sans-Serif;
+
+        }
+
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            background: url()
+        }
+
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .contact .content h2 {
+            font-size: 36px;
+            font-weight: 500;
+
+        }
+
+        .contact .content p {
+            font-weight: 300;
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .container .contactInfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .container .contactInfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+
+        .text {
+            border-radius: 10px;
+            padding: 30px;
+            background-color: orange;
+            width: 400px;
+            margin: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contactForm {
+            border-radius: 20px;
+            background-color: #00ccff;
+            padding: 50px;
+            width: 40%;
+            padding: 40px;
+
+        }
+
+        .contactForm h2 {
+            font-size: 30px;
+
+        }
+
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .contactForm .inputBox input {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .contactForm .inputBox input[type="submit"] {
+            width: 100px;
+            background: #000033;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/vitlogo2.png" alt="Railway-Portal">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#aboutus">Canteens</a></li>
+            <li class="item"><a href="#orderfood">Order food</a></li>
+            <li class="item"><a href="login.php">login</a></li>
+            <li class="item"><a href="signup.php">Sign Up</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>This is a responsive "Contact Us" page
+                where <br> the customers can ask queries and
+                contact us directly!</p><br>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+
+                    <div class="text">
+                        <h2>Contact Info:</h2><br>
+                        <h3>Phone No.</h3>
+                        <p>9876543210</p><br>
+
+                        <h3>Email</h3>
+                        <p>pratyaksh.jain2019@vitstudent.ac.in</p><br>
+
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2><br>
+                    <div class="inputBox"><span>Full Name:</span>
+                        <input type="text" name="" required="required">
+
+                    </div><br>
+                    <div class="inputBox"><span>Email:</span>
+                        <input type="text" name="" required="required">
+
+                    </div><br>
+                    <div class="inputBox">
+
+                        <textarea required="required" placeholder="Write query..."></textarea>
+
+                    </div><br>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
